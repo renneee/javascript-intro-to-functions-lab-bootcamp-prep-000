@@ -23,7 +23,7 @@ function sayHiToGrandma (string) {
     console.log(`${string.toUpperCase()}`)
     return "YES INDEED!"
   }
-  else (string === "I love you, Grandma."){
+  else if (string === "I love you, Grandma."){
     console.log(`${string.toMixedCase()}`)
     return "I love you, too."
   }
