@@ -24,8 +24,8 @@ function sayHiToGrandma (string) {
   return "YES INDEED!"
 }
 
-string = "I love you, Grandma"
-
 function sayHiToGrandma (string) {
+  console.log(`I love you, Grandma.`)
   return "I love you, too"
 }
+
