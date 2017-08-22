@@ -24,7 +24,7 @@ function sayHiToGrandma (string) {
     return "YES INDEED!"
   }
   else (string === "I love you, Grandma."){
-    console.log(`${string}`)
+    console.log(`${string.toMixedCase()}`)
     return "I love you, too."
   }
 }
