@@ -23,4 +23,8 @@ function sayHiToGrandma (string) {
     console.log(`${string.toUpperCase()}`)
     return "YES INDEED!"
   }
+  else (string === "I love you, Grandma."){
+    console.log(`${string}`)
+    return "I love you, too."
+  }
 }
